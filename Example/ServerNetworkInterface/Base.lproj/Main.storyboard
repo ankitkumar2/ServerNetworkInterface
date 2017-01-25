@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="9Ys-Jt-shk">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="xIt-ha-LlG">
+            <objects>
+                <viewController id="9Ys-Jt-shk" customClass="ViewController" customModule="ServerNetworkInterface_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zJQ-kw-hEU"/>
+                        <viewControllerLayoutGuide type="bottom" id="mFU-C4-kWK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Dxt-y2-0sE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Uwk-Vk-jO8">
+                                <rect key="frame" x="0.0" y="67" width="375" height="600"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wjA-sd-81c">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="75"/>
+                                        <state key="normal" title="ACTIVATE GIFT CARD"/>
+                                        <connections>
+                                            <action selector="activateGiftCard:" destination="9Ys-Jt-shk" eventType="touchUpInside" id="I0g-oK-7fU"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dBa-nb-tBc">
+                                        <rect key="frame" x="0.0" y="75" width="375" height="75"/>
+                                        <state key="normal" title="ACTIVATE E GIFT CARD"/>
+                                        <connections>
+                                            <action selector="activateEGiftCard:" destination="9Ys-Jt-shk" eventType="touchUpInside" id="ICU-3O-kHd"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UmE-Ak-7wB">
+                                        <rect key="frame" x="0.0" y="150" width="375" height="75"/>
+                                        <state key="normal" title="REDEEM GIFT CARD"/>
+                                        <connections>
+                                            <action selector="redeemGiftcard:" destination="9Ys-Jt-shk" eventType="touchUpInside" id="iNp-2c-xwt"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iPy-YB-bUt">
+                                        <rect key="frame" x="0.0" y="225" width="375" height="75"/>
+                                        <state key="normal" title="VOID GIFT CARD"/>
+                                        <connections>
+                                            <action selector="voidGiftcard:" destination="9Ys-Jt-shk" eventType="touchUpInside" id="MiH-GC-Tir"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KA3-2x-qsD">
+                                        <rect key="frame" x="0.0" y="300" width="375" height="75"/>
+                                        <state key="normal" title="GIFT BALANCE ENQUIRY"/>
+                                        <connections>
+                                            <action selector="giftBalanceEnquiry:" destination="9Ys-Jt-shk" eventType="touchUpInside" id="A36-V2-xJh"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iJM-mo-3jr">
+                                        <rect key="frame" x="0.0" y="375" width="375" height="75"/>
+                                        <state key="normal" title="LOYALTY ACCURAL"/>
+                                        <connections>
+                                            <action selector="loyaltyAccural:" destination="9Ys-Jt-shk" eventType="touchUpInside" id="Ug4-eo-t47"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CLR-AE-jTU">
+                                        <rect key="frame" x="0.0" y="450" width="375" height="75"/>
+                                        <state key="normal" title="LOYALTY REDEMPTION"/>
+                                        <connections>
+                                            <action selector="loyaltyRedemption:" destination="9Ys-Jt-shk" eventType="touchUpInside" id="cwx-Vd-dm3"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UZw-hI-fuZ">
+                                        <rect key="frame" x="0.0" y="525" width="375" height="75"/>
+                                        <state key="normal" title="LOYALTY BALANCE ENQUIRY"/>
+                                        <connections>
+                                            <action selector="loyaltyBalanceEnquiry:" destination="9Ys-Jt-shk" eventType="touchUpInside" id="YHw-I8-whw"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Uwk-Vk-jO8" firstAttribute="centerX" secondItem="Dxt-y2-0sE" secondAttribute="centerX" id="9nz-Ui-oXv"/>
+                            <constraint firstItem="Uwk-Vk-jO8" firstAttribute="height" secondItem="Dxt-y2-0sE" secondAttribute="height" multiplier="0.9" id="Gak-e0-zT9"/>
+                            <constraint firstItem="Uwk-Vk-jO8" firstAttribute="centerY" secondItem="Dxt-y2-0sE" secondAttribute="centerY" multiplier="1.1" id="K7V-yH-no3"/>
+                            <constraint firstItem="Uwk-Vk-jO8" firstAttribute="width" secondItem="Dxt-y2-0sE" secondAttribute="width" id="tTQ-gb-K86"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="LLy-2V-uen"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iXW-A2-GVd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="586" y="101"/>
+        </scene>
+    </scenes>
+</document>

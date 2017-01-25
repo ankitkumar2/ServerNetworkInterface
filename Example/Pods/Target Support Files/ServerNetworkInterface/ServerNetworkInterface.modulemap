@@ -1,0 +1,6 @@
+framework module ServerNetworkInterface {
+  umbrella header "ServerNetworkInterface-umbrella.h"
+
+  export *
+  module * { export * }
+}

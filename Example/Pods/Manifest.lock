@@ -1,0 +1,16 @@
+PODS:
+  - ServerNetworkInterface (0.1.0)
+
+DEPENDENCIES:
+  - ServerNetworkInterface (from `../`)
+
+EXTERNAL SOURCES:
+  ServerNetworkInterface:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ServerNetworkInterface: 2b5f9088ec04681d54bb4933a5bec4805e39a8d0
+
+PODFILE CHECKSUM: a4bc2654cd1f3f9b12f8bbe0bcd3b649e70206ff
+
+COCOAPODS: 1.2.0.rc.1

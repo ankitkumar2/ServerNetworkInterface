@@ -1,0 +1,22 @@
+{
+  "name": "ServerNetworkInterface",
+  "version": "0.1.0",
+  "summary": "A short description of ServerNetworkInterface.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ankitkumar2/ServerNetworkInterface",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ankitkumar2": "ankitk2@chetu.com"
+  },
+  "source": {
+    "git": "https://github.com/ankitkumar2/ServerNetworkInterface.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.1"
+  },
+  "source_files": "ServerNetworkInterface/Classes/**/*"
+}

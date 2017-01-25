@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ServerNetworkInterface_Example' do
+  pod 'ServerNetworkInterface', :path => '../'
+
+  target 'ServerNetworkInterface_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
