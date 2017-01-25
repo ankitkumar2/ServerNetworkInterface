@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ServerNetworkInterface: 2b5f9088ec04681d54bb4933a5bec4805e39a8d0
+  ServerNetworkInterface: 93e8eed9308a5a9814ab345e82cd989d4dce3253
 
 PODFILE CHECKSUM: a4bc2654cd1f3f9b12f8bbe0bcd3b649e70206ff
 

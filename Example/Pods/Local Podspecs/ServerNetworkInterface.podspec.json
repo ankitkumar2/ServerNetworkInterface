@@ -1,8 +1,8 @@
 {
   "name": "ServerNetworkInterface",
   "version": "0.1.0",
-  "summary": "A short description of ServerNetworkInterface.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "ServerNetworkInterface is library for smart transaction to del with server hand shaking.",
+  "description": "TODO: ServerNetworkInterface is library for smart transaction to del with server hand shaking.",
   "homepage": "https://github.com/ankitkumar2/ServerNetworkInterface",
   "license": {
     "type": "MIT",
@@ -18,5 +18,5 @@
   "platforms": {
     "ios": "9.1"
   },
-  "source_files": "ServerNetworkInterface/Classes/**/*"
+  "source_files": "ServerNetworkInterface/Classes/**/*.{h,swift}"
 }

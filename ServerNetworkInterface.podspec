@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ServerNetworkInterface'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ServerNetworkInterface.'
+  s.summary          = 'ServerNetworkInterface is library for smart transaction to del with server hand shaking.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: ServerNetworkInterface is library for smart transaction to del with server hand shaking.
                        DESC
 
   s.homepage         = 'https://github.com/ankitkumar2/ServerNetworkInterface'
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.1'
 
-  s.source_files = 'ServerNetworkInterface/Classes/**/*'
+  s.source_files = 'ServerNetworkInterface/Classes/**/*.{h,swift}'
   
   # s.resource_bundles = {
   #   'ServerNetworkInterface' => ['ServerNetworkInterface/Assets/*.png']
